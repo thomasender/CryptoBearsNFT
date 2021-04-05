@@ -1,0 +1,139 @@
+#catHead {
+    background-color: #c18900;
+    width: 200px;
+    height: 200px;
+    border-radius: 59% 55% 66% 66%;
+}
+
+.ear{
+    border-radius: 21px 70px 12px 70px;
+    background-color: #c18900;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.catEyes {
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+.eye{
+    background-color: rgb(219 231 255); 
+    border-radius: 50%;
+    width: 66px;
+    height: 44px;
+    margin: 25px;
+    position: relative;
+    
+}
+.pupils{
+    background-color: black;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+
+.nose{
+    background-color: black;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    position: absolute;
+    top: 96px;
+    left: 84px;
+    z-index: 1;
+}
+.mouth{
+    background-color: #000000;
+    position: absolute;
+    left: 46px;
+    top: 132px;
+    height: 30px;
+    width: 108px;
+    border-radius: 50%
+}
+.lip{
+    background-color: #c18900;
+    position: absolute;
+    left: 51px;
+    top: 124px;
+    height: 30px;
+    width: 96px;
+    border-radius: 50%;
+}
+
+.tail {
+    background-color: #c18900;
+    width: 38px;
+    height: 37px;
+    border-radius: 50%;
+    position: absolute;
+    top: 389px;
+    left: 92px;
+    z-index: -2;
+  }
+  
+
+
+.ears{
+    position: relative;
+}
+
+.zeichnung{
+    border-radius: 90% 0 84% 0;
+    background-color: #caa036;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.catBody{
+    background-color: #caa036;
+    border-radius: 75px 75px 70px 70px;
+    width: 170px;
+    height: 255px;
+    position: absolute;
+    top: 150;
+    left: 25px;
+    z-index: -1;
+}
+.catArms{
+    background-color: #c18900;
+    width: 50px;
+    height: 54px;
+    border-radius: 15px 15px 25px 25px;
+    position: absolute;
+    z-index: 1;
+}
+.catFingers{
+    background-color: #956b00;
+    width: 16px;
+    height: 20px;
+    border-radius: 126px;
+    position: absolute;
+    z-index: 1;
+}
+
+.pawCenter{
+    background-color: #956b00;
+    width: 31px;
+    height: 27px;
+    border-radius: 126px;
+    position: absolute;
+    top: 22px;
+    left: 9px;
+    z-index: 1;
+}
+.belly{
+    background-color: #f5c13d;
+    width: 94px;
+    height: 167px;
+    border-radius: 51px;
+    position: absolute;
+    left: 65px;
+    top: 217px;
+}
